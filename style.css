@@ -1,0 +1,38 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:   black;
+	border-bottom: 3px solid yellow;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: maroon;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 14px 22px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: yellow;
+	color: maroon;
+}
+
+.active{
+	background-color: yellow;
+	color: maroon;
+}
+
+.P{
+	float: right;
+	color: yellow;
+	margin-right: 10px; 
+
+}
